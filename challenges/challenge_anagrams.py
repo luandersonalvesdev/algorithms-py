@@ -5,6 +5,7 @@ def bubble_sort(str_list):
             if str_list[j] > str_list[j + 1]:
                 str_list[j], str_list[j + 1] = str_list[j + 1], str_list[j]
 
+
 def are_anagrams(first_string, second_string):
     first_string = first_string.replace(" ", "").lower()
     second_string = second_string.replace(" ", "").lower()
@@ -19,6 +20,7 @@ def are_anagrams(first_string, second_string):
     bubble_sort(str2_list)
 
     return str1_list == str2_list
+
 
 def is_anagram(first_string, second_string):
     """Faça o código aqui."""
